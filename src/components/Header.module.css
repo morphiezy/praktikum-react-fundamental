@@ -1,0 +1,14 @@
+.container {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 2px 4px rgba(47, 53, 66, .3);
+    box-shadow: 0 2px 4px rgba(47, 53, 66, .3);
+    padding: 30px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.title {
+    color: rgba(47, 53, 66, 1.0);
+}

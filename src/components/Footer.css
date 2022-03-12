@@ -1,0 +1,10 @@
+footer{
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 2px 4px rgba(47, 53, 66, .3);
+    box-shadow: -4px 0 4px rgba(47, 53, 66, .3);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }

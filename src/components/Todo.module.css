@@ -1,0 +1,108 @@
+.container {
+    list-style: none;
+    margin: 140px 20px 120px;
+}
+
+.list {
+    margin: 20px 0;
+}
+
+.toggle {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid rgba(47, 53, 66, 1.0);
+    cursor: pointer;
+    -webkit-animation: movein 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: movein 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: left;
+}
+
+.toggleText{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.todoComplete {
+    text-decoration: line-through;
+}
+
+
+
+/* Module for Todo Form */
+
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.formInput {
+    min-width: 200px;
+    max-width: 350px;
+    width: 100%;
+    height: 42px;
+    border-radius: 30px;
+    border: 1px solid rgba(47, 53, 66, .4);
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.hiddenBtn {
+    display: none;
+}
+
+.btnAdd {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background-color: #eb3b5a;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.btnAddIcon {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px 0 0 3px;
+}
+
+
+
+
+@-webkit-keyframes movein {
+
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+
+@keyframes movein {
+
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
